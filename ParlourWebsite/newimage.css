@@ -1,0 +1,693 @@
+ body
+{
+	margin: 0;
+}
+/* Nav Bar */
+.topPage 
+{
+	background-color: blueviolet; 
+}
+
+.topPage h1
+{
+	color: rgb(243, 76, 76);
+	font-family:'Avant Garde',sans-serif;
+	font-size: 40px;
+	display: inline;
+	background-color: white;
+	margin: 0px 0px 0px 0px;
+	padding: 15px 0px 15px 15px;
+
+}
+
+.topPage  nav ul 
+{
+	display: inline; 
+	background-color: white;
+	padding: 23px 192px 20px 23px;
+	
+}
+
+.topPage ul li 
+{
+	display: inline-block;
+	background: black;
+	padding: 17px 40px 17px 17px;
+	margin: 3px 3px 3px 3px;
+	border-radius: 10px 20px 10px 20px;
+	font-family: 'Avant Garde', sans-serif;
+}
+
+.topPage a 
+{
+	color:white;
+}
+
+.topPage header 
+{
+	background-color:white;
+}
+
+/* Home Page*/
+
+.firstPhoto h2
+{
+	font-family: 'Avant Garde', sans-serif; 
+	font-size: 20px; 
+	background: white;
+	color: black;
+	margin: 15px 130px 0px 130px;
+	text-align: center; 
+	border-radius: 40px;
+
+}
+
+.firstPhoto 
+{
+	background-color: #888; 
+	margin: 1% 20% 5% 20%;
+	padding: 1.5% 1.5% 1.5% 1.5%;
+	border-radius: 40%;
+}
+.firstPhoto img 
+{
+	/*padding: 30px 10px 30px 10px;*/
+	padding: 2.5%; 
+	border-radius: 40%;
+	background: #444;
+	margin:1% 5% 5% 3.5%;
+}
+
+
+
+.photo p
+{
+	text-align: center;
+	font-family: 'Avant Garde',sans-serif; 
+	font-size: 30px;
+	color: black; 
+	font-weight: bold;
+	background-color: white; 
+	border-radius: 10px;
+	margin: 5px 150px 0px 150px;
+
+}
+
+.bars ul li 
+{
+	background: white;
+	color: white;
+	display: inline-block;
+	font-size: 130px;
+	margin: 0px 22px 10px 22px;
+	border-radius:  10px 30px 10px 30px;
+}
+
+
+.pricesHeadr h1 
+{
+	font-family: 'Avant Garde', sans-serif; 
+	color : black;  
+	font-size : 50px; 
+	font-weight : bold;
+	background-color : white;
+	text-align : center;
+	border-radius: 20px 30px 10px 30px;
+	margin: 10px 40px 3px 40px;
+}
+
+.apptHeadr h1
+{
+	font-family: 'Avant Garde', sans-serif; 
+	color : black;  
+	font-size : 50px; 
+	font-weight : bold;
+	background-color : white;
+	text-align : center;
+	border-radius: 20px 30px 10px 30px;
+	margin: 10px 40px 3px 40px;
+}
+
+.designsHeadr h1 
+{
+	font-family: 'Avant Garde', sans-serif; 
+	color : black;  
+	font-size : 50px; 
+	font-weight : bold;
+	background-color : white;
+	text-align : center;
+	border-radius: 20px 30px 10px 30px;
+	margin: 10px 40px 3px 40px;
+}
+
+.stylistsHeadr h1
+{
+	font-family: 'Avant Garde', sans-serif; 
+	color : black;  
+	font-size : 50px; 
+	font-weight : bold;
+	background-color : white;
+	text-align : center;
+	border-radius: 20px 30px 10px 30px;
+	margin: 10px 40px 3px 40px;
+}
+
+
+.aboutUs h1
+{
+	font-family: 'Avant Garde', sans-serif; 
+	color : black;  
+	font-size : 50px; 
+	font-weight : bold;
+	background-color : white;
+	text-align : center;
+	border-radius: 20px 30px 30px 30px;
+	margin: 10px 40px 3px 40px;	
+	padding-bottom: 25px;
+}
+
+.aboutUs p
+{
+	font-family : 'Futura', sans-serif;
+	color : white; 
+	background-color : #555;
+	font-size: 30px;
+	border-radius: 30px 20px 30px 20px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 30px 10px 30px;
+}
+
+.aboutUs img
+{
+	background: black;
+	border-radius: 40%;
+	padding: 30px;
+	margin: 15px 5px 1.5px 5px;
+}
+
+
+/* Price Information and Price Page */
+.price4Stuff ul li 
+{
+	font-family : 'Avant Garde', sans-serif;
+	color : white; 
+	background-color: #777;
+	font-size: 20px;
+	display: inline-block;
+	margin: 20px;
+	border-radius: 20px;
+	padding: 15px;
+}
+.priceInfo h2
+{
+	font-family : 'Avant Garde', sans-serif; 
+	color : black;
+	background-color: white; 
+	font-size : 25px;
+	border-radius: 20px 40px 10px 40px;
+	text-align: center;
+	margin-right : 10%;
+	margin-left: 10%;
+	margin-top: 0;
+	padding: 1px 20px 30px 20px;
+}
+
+.priceInfo p 
+{
+	background: #555;
+	font-size: 20px;
+	color: white;
+	font-family: 'Futura', sans-serif;
+	margin: 1.5px 1.5px 1.5px 1.5px;
+	padding: 2px 5px 2px 5px;
+	border-radius: 20px 40px 10px 40px;
+}
+
+.menCuts 
+{
+	background: white;
+	margin: 10px 10px 10px 10px;
+	padding: 10.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	border-radius: 20%;
+}
+
+.menCuts img
+{
+	background: #777;
+	margin: 10px 10px 10px 10px;
+	padding: 10.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	float: 10.5px;
+	border-radius: 20%;
+
+}
+.menCuts p 
+{
+	font-family:'Futura', sans-serif;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 40%;
+	background-color: white;
+}
+
+.permPrice
+{
+	background: white;
+	margin: 10px 10px 10px 10px;
+	padding: 19.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	border-radius: 20%;
+}
+
+.permPrice img 
+{
+	background: #777;
+	margin: 10px 10px 10px 10px;
+	padding: 10.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	float: right;
+	border-radius: 20%;
+}
+
+.permPrice p 
+{
+	font-family:'Futura', sans-serif;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 40%;
+	background-color: white;
+}
+
+.specialStyle 
+{
+	background-color: white;
+	margin: 10px 10px 10px 10px;
+	padding: 19.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	border-radius: 20%;	
+}
+
+.specialStyle img 
+{
+	background: #777;
+	margin: 10px 10px 10px 10px;
+	padding: 10.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	float: right;
+	border-radius: 20%;
+}
+
+.specialStyle p 
+{
+	font-family:'Futura', sans-serif;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 40%;
+	background-color: white;
+}
+
+.highlightHair 
+{
+	background-color: white;
+	margin: 10px 10px 10px 10px;
+	padding: 19.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	border-radius: 20%;
+}
+
+.highlightHair img 
+{
+	background: #777;
+	margin: 10px 10px 10px 10px;
+	padding: 10.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	float: right;
+	border-radius: 20%;
+}
+
+.highlightHair p
+{
+	font-family:'Futura', sans-serif;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 40%;
+	background-color: white;
+}
+
+.kidHairCut
+{
+	background-color: white;
+	margin: 10px 10px 10px 10px;
+	padding: 19.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	border-radius: 20%;
+}
+
+.kidHairCut img
+{
+	background: #777;
+	margin: 10px 10px 10px 10px;
+	padding: 10.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	float: right;
+	border-radius: 20%;
+}
+
+.kidHairCut p 
+{
+	font-family:'Futura', sans-serif;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 40%;
+	background-color: white;
+}
+
+.Peticure 
+{
+	background-color: white;
+	margin: 20px 10px 10px 10px;
+	padding: 19.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	border-radius: 20%;	
+
+}
+
+.Peticure img 
+{
+	background: #777;
+	margin: 10px 10px 10px 10px;
+	padding: 10.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	float: right;
+	border-radius: 20%;
+}
+
+.Peticure p 
+{
+	font-family:'Futura', sans-serif;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 40%;
+	background-color: white;
+}
+
+.Manicure 
+{
+	background-color: white;
+	margin: 20px 10px 10px 10px;
+	padding: 19.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	border-radius: 20%;
+	float: right;	
+}
+
+
+.Manicure img 
+{
+	background: #777;
+	margin: 10px 10px 10px 10px;
+	padding: 10.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	float: right;
+	border-radius: 20%;
+}
+
+.Manicure p 
+{
+	font-family:'Futura', sans-serif;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 40%;
+	background-color: white;
+}
+
+.EyeBrow
+{	
+	background-color: white;
+	margin: 20px 10px 10px 10px;
+	padding: 19.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	border-radius: 20%;	
+}
+
+.EyeBrow img
+ {
+ 	background: #777;
+	margin: 10px 10px 10px 10px;
+	padding: 10.5px 10.5px 10.5px 10.5px;
+	display: inline-block;
+	float: right;
+	border-radius: 20%;
+ }
+
+ .EyeBrow p
+ {
+ 	font-family:'Futura', sans-serif;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 40%;
+	background-color: white;
+ }
+
+.EyeBrow a
+{
+	color:white;
+	font-family: 'Futura', sans-serif;
+	font-size: 17px;
+	padding: 5px;
+	background: black;
+	border-radius: 5px 3px 5px 3px;
+	margin: 0px 50px 20px 30px;
+}
+
+.EyeBrow ul li 
+{
+	list-style-type: none;
+	
+}
+/* Designs Page. Everything that deals with designs that the beauty salon offers */
+.permPhoto
+{
+	float:left;
+	background-color: white; 
+	margin: 1% 0.5% 0.5% 0.5%;
+	padding: 20px 20px 20px 20px;
+
+}
+
+.permPhoto p
+{
+	font-family: 'Futura', sans-serif; 
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+.straightPhoto
+{
+	float:40px;
+	background-color: white; 
+	margin: 1% 0.5% 0.5% 0.5%;
+	padding: 19px 20px 20px 19px;
+	display: inline-block;
+
+}
+.straightPhoto p
+{
+	font-family: 'Futura', sans-serif; 
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+
+.bowlPhoto
+{
+	float:80px;
+	background-color: white; 
+	margin: 1% 0.5% 0.5% 0.5%;
+	padding: 19px 20px 20px 19px;
+	display: inline-block;
+}
+
+.bowlPhoto p
+{
+	font-family: 'Futura', sans-serif; 
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+.wavyPhoto
+{
+	float:120px;
+	background-color: white; 
+	margin: 1% 0.5% 0.5% 0.5%;
+	padding: 19px 20px 20px 19px;
+	display: inline-block;
+}
+
+.wavyPhoto p
+{
+	font-family: 'Futura', sans-serif; 
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+.mediumHairPhoto
+{
+	float:160px;
+	background-color: white; 
+	margin: 1% 0.5% 0.5% 0.5%;
+	padding: 19px 20px 20px 19px;
+	display: inline-block;
+
+}
+
+.mediumHairPhoto p
+{
+	font-family: 'Futura', sans-serif; 
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+.designInfo
+{
+	background-color: white; 
+	border-radius: 120px;
+}
+
+.designInfo p
+{
+	font-family: 'Futura', sans-serif; 
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+/* Stylists Page */
+
+
+.kRod img
+{
+	border-radius: 30%;
+	background: white; 
+	padding: 20px;
+	float: center;
+	margin-left: 400px ;
+}
+
+.kRod h2
+{
+	font-family: 'Avant Garde',sans-serif;
+	color: white;
+	background-color: #333;
+	padding: 20px 50px 20px 50px;
+	border-radius: 40px;
+	margin: 0px 200px 10px 200px;
+	float: right;
+}
+
+.kRod p 
+{
+	font-family: 'Futura',sans-serif; 
+	color: black;
+	background: white; 
+	border-radius: 20px 50px 20px 50px;
+	padding-left: 20px; 
+	margin-top: 0px;
+	padding: 20px 10px 20px 30px;
+
+}
+
+.sEsc h2
+{
+	font-family: 'Avant Garde',sans-serif;
+	color: white;
+	background-color: #333;
+	padding: 20px 50px 20px 50px;
+	border-radius: 40px;
+	margin: 0px 200px 10px 200px;
+
+}
+
+.sEsc p 
+{
+	font-family: 'Futura',sans-serif; 
+	color: black;
+	background: white; 
+	border-radius: 20px 50px 20px 50px;
+	padding-left: 20px; 
+	margin-top: 0px;
+	padding: 20px 10px 20px 30px;
+
+}
+
+/*Information on Prices*/
+
+
+.containerThread 
+{
+	background-color: #555; 
+	border-radius: 40px 30px 40px 30px;
+	padding: 5px;
+	margin: 10px;
+}
+
+.containerThread h2
+{
+	color: white;
+	font-size: 30px;
+	font-family: 'Avant Garde', sans-serif; 
+	text-align: center;
+	background: black;
+	border-radius: 30px 20px 30px 20px;
+	margin: 40px;
+	
+}
+
+.containerThread p 
+{
+	font-family: 'Futura', sans-serif;
+	font-size: 25px;
+	background: white;
+	color: black;
+	border-radius: 30px 20px 30px 20px;
+	margin: 2px 40px 20px 40px;
+	text-align: center;
+}
+
+.containerThread img
+{
+	background: white; 
+	border-radius: 20px 30px 20px 30px;
+	padding: 40px;
+	margin: 5% 10% 2% 10%;
+}
+
+.random li 
+{
+	display: inline-block; 
+	background: black; 
+	border-radius: 5px 3px 5px 3px;
+	padding: 2px 30px 2px 30px; 
+	margin: 0px 35px 2px 12px;
+
+}
+
+body 
+{
+	background-color: black; 
+}
