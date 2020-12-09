@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<head>
+    <title>CGPA Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jsfile.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            <center>CGPA Calculator</center>
+        </h1>
+
+
+        <table class="table">
+            <form id="myform">
+                <thead>
+
+                    <tr>
+                        <th scope="col">subjects ID</th>
+                        <th scope="col">Credits</th>
+                        <th scope="col">Grade</th>
+
+
+                    </tr>
+
+                </thead>
+                <tbody>
+
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="number" id="cr1" class="form-control">
+                                </div>
+
+                        </td>
+                        <td>
+
+                            <div class="form-group">
+
+                                <select class="form-control" id="grade1">
+                      <option>select grade</option>
+                      <option value=10>O</option>
+                      <option value=9>A+</option>
+                      <option value=8>A</option>
+                      <option value=7>B+</option>
+                      <option value=6>B</option>
+                      <option value=0 >RA</option>
+                      <option value=- >AB</option>
+                    </select>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <th scope="row">2</th>
+                        <td>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="number" id="cr2" class="form-control">
+                                </div>
+
+                        </td>
+                        <td>
+
+                            <div class="form-group">
+
+                                <select class="form-control" id="grade2">
+                                    <option>select grade</option>
+                                    <option value=10>O</option>
+                      <option value=9>A+</option>
+                      <option value=8>A</option>
+                      <option value=7>B+</option>
+                      <option value=6>B</option>
+                      <option value=0 >RA</option>
+                      <option value=- >AB</option>
+                    </select>
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="number" id="cr3" class="form-control">
+                                </div>
+
+                        </td>
+                        <td>
+
+                            <div class="form-group">
+
+                                <select class="form-control" id="grade3">
+                                    <option>select grade</option>
+                                    <option value=10>O</option>
+                                    <option value=9>A+</option>
+                                    <option value=8>A</option>
+                                    <option value=7>B+</option>
+                                    <option value=6>B</option>
+                                    <option value=0 >RA</option>
+                                    <option value=- >AB</option>
+                    </select>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+
+                        <th scope="row">4</th>
+                        <td>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="number" id="cr4" class="form-control">
+                                </div>
+
+                        </td>
+                        <td>
+
+                            <div class="form-group">
+
+                                <select class="form-control" id="grade4">
+                                    <option>select grade</option>
+                                    <option value=10>O</option>
+                                    <option value=9>A+</option>
+                                    <option value=8>A</option>
+                                    <option value=7>B+</option>
+                                    <option value=6>B</option>
+                                    <option value=0 >RA</option>
+                                    <option value=- >AB</option>
+                    </select>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="number" id="cr5" class="form-control">
+                                </div>
+
+                        </td>
+                        <td>
+
+                            <div class="form-group">
+
+                                <select class="form-control" id="grade5">
+                                    <option>select grade</option>
+                                    <option value=10>O</option>
+                      <option value=9>A+</option>
+                      <option value=8>A</option>
+                      <option value=7>B+</option>
+                      <option value=6>B</option>
+                      <option value=0 >RA</option>
+                      <option value=- >AB</option>
+                    </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr id="r6">
+                        <th scope="row">6</th>
+                        <td>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="number" id="cr6" class="form-control">
+                                </div>
+
+                        </td>
+                        <td>
+
+                            <div class="form-group">
+
+                                <select class="form-control" id="grade6">
+                                    <option>select grade</option>
+                                    <option value=10>O</option>
+                                    <option value=9>A+</option>
+                                    <option value=8>A</option>
+                                    <option value=7>B+</option>
+                                    <option value=6>B</option>
+                                    <option value=0 >RA</option>
+                                    <option value=- >AB</option>
+                    </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="number" id="cr7" class="form-control">
+
+                                </div>
+
+                        </td>
+                        <td>
+
+                            <div class="form-group">
+
+                                <select class="form-control" id="grade7">
+                                    <option>select grade</option>
+                                    <option value=10>O</option>
+                                    <option value=9>A+</option>
+                                    <option value=8>A</option>
+                                    <option value=7>B+</option>
+                                    <option value=6>B</option>
+                                    <option value=0 >RA</option>
+                                    <option value=- >AB</option>
+                        </select>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </form>
+        </table>
+
+        <h2 id="gpa" class="text-monospace"></h2>
+        <h2 id="cgpadis" class="text-monospace float-right"></h2>
+
+        <center>
+            <div class="btn btn-secondary btn-lg" form="myform" onclick="myfunction()">Calculate GPA</div>
+
+        </center>
+        </form>
+
+        <div type="button" class="btn btn-primary btn-lg btn-block mt-5" onclick="cgpa()">Calculate CGPA</div>
+        
+    </div>
+
+</body>
+
+</html>
