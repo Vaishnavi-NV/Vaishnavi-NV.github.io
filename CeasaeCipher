@@ -1,0 +1,82 @@
+import java.util.*;
+import java.net.*;
+import java.io.*;
+public class CaesarCipher
+{
+ char a[] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z', 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+ int key;
+ 
+ 
+
+ public String doEncryption(String s)
+ {
+  
+  int currentCharacter,targetedCharacter,i;
+  char c1;  
+  char c[]=new char[(s.length())];
+
+  for(i=0;i<s.length();i++)
+  {
+   currentCharacter=s.charAt(i);
+   targetedCharacter=currentCharacter+key;
+   
+   if(targetedCharacter <= 90)
+   {
+    c[i]=(char)(s.charAt(i) + key);
+   }
+   else if(targetedCharacter <= 93)
+   {
+    c[i]=(char)a[((targetedCharacter)-90)-1];
+   }
+   else if(targetedCharacter >= 97 && targetedCharacter <= 122)
+   {
+    int temp=targetedCharacter-97;  
+    c[i]=(char)a[((temp)+26)];
+   }
+   else if(targetedCharacter>122 && targetedCharacter<=125)
+   {
+    int temp=((targetedCharacter)-97)-26;  
+    c[i]=(char)a[((temp)+26)];
+   }
+   
+  }
+  
+  
+  String en=new String(c);
+
+  return(en);
+ }
+ public String doDecryption(String s)
+ {
+  
+  int currentCharacter,targetedCharacter,i;
+  char c1;  
+  char c[]=new char[100];
+
+  for(i=0;i<s.length();i++)
+  {
+   currentCharacter=s.charAt(i);
+   targetedCharacter=currentCharacter-key; 
+  
+   if(targetedCharacter>=65 && targetedCharacter<=90)
+   {
+    c[i]=(char)(targetedCharacter);        
+   }
+   else if(targetedCharacter<=64)
+   { 
+    c[i]=(char)a[26-(65-(targetedCharacter))];
+   }
+   else if(targetedCharacter>=97 && targetedCharacter<=122)
+   {
+    int temp=targetedCharacter-97;  
+    c[i]=(char)a[((temp)+26)];  
+   }
+   else if((targetedCharacter<97) && (targetedCharacter>=94))
+   {
+    int temp=(52-(97-(targetedCharacter)));  
+    c[i]=(char)a[temp];
+   }  
+  }  
+  return(new String(c));
+ }
+}
